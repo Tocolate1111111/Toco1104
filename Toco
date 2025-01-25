@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Tocolate",
-         Animation = "Nhìn cái chóa gì"
+         Animation = "Mày nhìn cái chóa Gì "
          },
         Key = {
         KeySystem = false,
