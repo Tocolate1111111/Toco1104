@@ -47,37 +47,37 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "W-azue ",
+     Name = "W-azue 👌",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
   })
     AddButton(Tab1o, {
-     Name = "Redz-Hub ",
+     Name = "Redz-Hub 🔴",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })
     AddButton(Tab1o, {
-     Name = "HoHo-Hub (Có key)",
+     Name = "HoHo-Hub (Có key🔑)",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
   end
   })
     AddButton(Tab1o, {
-     Name = "Cụt Tay Hub",
+     Name = "Cụt Tay Hub 🌚",
     Callback = function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/main/Cuttayhubreal.lua'))()
   end
   })
     AddButton(Tab1o, {
-     Name = "Speed-Hub ",
+     Name = "Speed-Hub 🚤",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
     AddButton(Tab1o, {
-     Name = "Doremon-Hub ",
+     Name = "Doremon-Hub 🔵",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
   end
