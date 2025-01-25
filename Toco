@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Tô cô lết",
+         Title = "Menu của Tocolate",
          Animation = "Mày nhìn cái chóa Gì "
          },
         Key = {
