@@ -23,7 +23,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=74866478269262",
        Size = {60, 60},
-       Color = Color3.fromRGB(10, 10, 10),
+       Color = Color3.fromRGB(0, 227, 90),
        Corner = true,
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
