@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
 ------ Tab
      local Tab1o = MakeTab({Name = "Blox Fruit"})
      local Tab2o = MakeTab({Name = "Fish"})
-     local Tab3o = MakeTab({Name = "Blox Fruit PvP"})
+     local Tab3o = MakeTab({Name = "Trog thời gian update"})
      
      
 -------TOGGLE 
@@ -88,16 +88,3 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ed19f1e04d7e833589273753c5b897f7.lua"))()
   end
   })
-    AddButton(Tab2o, {
-     Name = "Speed-Hub 🚤",
-    Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-  end
-  })
-    AddButton(Tab3o, {
-     Name = "Ghim địch + Menu esp",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aepione/Prensado/refs/heads/main/Prensado%20camlock"))()
-      loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
-  end
-  })	
