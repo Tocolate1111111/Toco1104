@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
 ------ Tab
      local Tab1o = MakeTab({Name = "Blox Fruit"})
      local Tab2o = MakeTab({Name = "Fish"})
-     local Tab3o = MakeTab({Name = "Chưa có gì"})
+     local Tab3o = MakeTab({Name = "Blox Fruit PvP"})
      
      
 -------TOGGLE 
@@ -94,3 +94,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
      loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
+    AddButton(Tab3o, {
+     Name = "Aim ",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aepione/Prensado/refs/heads/main/Prensado%20camlock"))()
+      loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
+  end
+  })	
