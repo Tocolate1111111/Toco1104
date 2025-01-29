@@ -30,8 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Trang chủ"})
-     local Tab2o = MakeTab({Name = "Chưa có gì"})
+     local Tab1o = MakeTab({Name = "Blox Fruit"})
+     local Tab2o = MakeTab({Name = "Fish"})
      local Tab3o = MakeTab({Name = "Chưa có gì"})
      
      
@@ -80,5 +80,17 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
      Name = "Doremon-Hub 🔵",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
+  end
+  })
+    AddButton(Tab2o, {
+     Name = "Ronix Hub 🦈",
+    Callback = function()
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ed19f1e04d7e833589273753c5b897f7.lua"))()
+  end
+  })
+    AddButton(Tab2o, {
+     Name = "Speed-Hub 🚤",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
