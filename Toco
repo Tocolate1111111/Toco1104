@@ -88,3 +88,21 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ed19f1e04d7e833589273753c5b897f7.lua"))()
   end
   })
+local message = "Script by Tocolate"
+
+-- Đợi vài giây để đảm bảo chat đã load
+task.wait(2)
+
+-- Gửi tin nhắn vào chat
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local function sendChatMessage(msg)
+    local chatEvent = ReplicatedStorage:FindFirstChild("DefaultChatSystemChatEvents")
+    if chatEvent then
+        chatEvent.SayMessageRequest:FireServer(msg, "All")
+    end
+end
+
+sendChatMessage(message)
