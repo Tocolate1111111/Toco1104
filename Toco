@@ -55,7 +55,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
     AddButton(Tab1o, {
      Name = "Redz-Hub 🔴",
     Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
   })
     AddButton(Tab1o, {
