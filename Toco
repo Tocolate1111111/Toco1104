@@ -67,7 +67,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tocolate1111111/Toco
     AddButton(Tab1o, {
      Name = "Cụt Tay Hub 🌚",
     Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhub-mizu.lua"))()
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1498369f289af2671cca90085f23fb8.lua"))()
   end
   })
     AddButton(Tab1o, {
